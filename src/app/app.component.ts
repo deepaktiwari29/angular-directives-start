@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'directives-start';
+  evenNumbers = [2, 4];
+  oddNumbers = [1, 3, 5];
+  onlyOdd = false;
+  value = 10;
 }
